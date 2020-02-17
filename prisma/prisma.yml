@@ -1,0 +1,11 @@
+# The HTTP endpoint for the Prisma API
+#endpoint: ""
+endpoint: https://eu1.prisma.sh/paulo-filho-ee2d2f/graphql-prisma/dev
+
+# Points to the file that contains the datamodel
+datamodel: datamodel.graphql
+
+# Specifies language & location for the generated Prisma client
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
